@@ -1,0 +1,11 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/Users/kb/Documents/Visual Studio 2022/Projects/terrain_lod/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2f4fd && [1/2] Building C object CMakeFiles\cmTC_2f4fd.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_2f4fd.dir/CheckIncludeFile.c.obj 
+C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1432~1.313\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_2f4fd.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_2f4fd.dir\ /FS -c "C:\Users\kb\Documents\Visual Studio 2022\Projects\terrain_lod\out\build\x64-Debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+C:\Users\kb\Documents\Visual Studio 2022\Projects\terrain_lod\out\build\x64-Debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
